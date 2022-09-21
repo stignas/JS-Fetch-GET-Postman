@@ -1,0 +1,156 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgba(220, 223, 226, 255);
+}
+
+main {
+  padding: 2rem;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.profile-wrapper {
+  position: relative;
+  background-color: rgba(84, 178, 223, 255);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 4rem;
+  color: white;
+  height: 85vh;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+  width: 100%;
+  align-items: center;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 50px;
+  width: calc(100% - 30% - 7%);
+  position: absolute;
+  top: 2rem;
+  left: 30%;
+  padding: 3rem 3rem;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+span {
+  color: rgba(84, 178, 223, 255);
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.skill-element {
+  padding-top: 0.5rem;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 1px solid #54b2df;
+  border-radius: 10px;
+  background-image: linear-gradient(#54b2df, #54b2df);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  visibility: hidden;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.labels-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.25rem;
+}
+
+.skill-title {
+  font-weight: bold;
+}
+
+.skill-value {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  column-gap: 3rem;
+}
+
+.col-1 {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.col-1 > h3,
+.col-2 > h3 {
+  margin: 0;
+}
+
+.col-1 > p {
+  opacity: 0.7;
+}
+
+.col-1 > p,
+.col-2 > p {
+  padding: 0.5rem 0;
+}
+
+.col-2 {
+  text-align: left;
+  padding-left: 1rem;
+}
